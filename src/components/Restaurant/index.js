@@ -8,7 +8,6 @@ class Restaurant extends Component {
     cart: 0,
     menu: [],
     active: '',
-    items: [],
     dishes: [],
     cartItems: {},
   }
@@ -21,7 +20,6 @@ class Restaurant extends Component {
     const {menu} = this.state
     const menuList = menu.find(eachitem => eachitem.menu_category_id === id)
     this.setState({
-      items: menuList,
       dishes: menuList.category_dishes,
       active: menuList.menu_category_id,
     })
@@ -81,15 +79,7 @@ class Restaurant extends Component {
   }
 
   render() {
-    const {
-      restaurent,
-      cart,
-      menu,
-      active,
-      items,
-      dishes,
-      cartItems,
-    } = this.state
+    const {restaurent, cart, menu, active, dishes, cartItems} = this.state
     console.log(cartItems)
 
     return (
