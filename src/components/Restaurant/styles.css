@@ -1,0 +1,145 @@
+.menu-page {
+  font-family: sans-serif;
+  background: white;
+  padding: 20px;
+}
+.food-symbol {
+  width: 24px;
+  height: 20px;
+  border-radius: 50px;
+  padding: 4px;
+  background-clip: content-box;
+  box-sizing: border-box;
+  margin: 5px 10px;
+}
+.no-btn {
+  background: none;
+  border: none;
+  color: inherit;
+}
+.food-symbol.veg {
+  border: 2px solid green;
+  background-color: green;
+}
+.food-symbol.non-veg {
+  border: 2px solid #442503;
+  background-color: #442503;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orders-button {
+  display: inline-flex;
+  gap: 8px;
+  background: none;
+  border: 1px solid black;
+  padding: 5px 10px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  font-size: 24px;
+}
+.cart-count {
+  position: absolute;
+  background: red;
+  color: white;
+  width: 16px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  height: 16px;
+  top: -3px;
+  right: -2px;
+}
+
+.categories {
+  list-style: none;
+  padding: 0;
+  margin: 2px 0;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.categories li {
+  margin-right: 20px;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.categories .active {
+  text-decoration: underline;
+  color: red;
+  border-bottom: 2px solid red;
+  padding-bottom: 15px;
+}
+
+.menu-list {
+  border-top: 1px solid #ccc;
+}
+
+.menu-item {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+.menu-img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 8px;
+  aspect-ratio: 5 / 5;
+}
+
+.menu-details {
+  width: 100%;
+}
+.calories {
+  width: 40%;
+}
+.menu-details h2 {
+  margin: 0;
+}
+
+.calories {
+  color: orange;
+}
+
+.unavailable {
+  color: red;
+}
+
+.quantity-selector {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin: 10px 1px;
+  background: green;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+}
+
+.quantity-selector button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.customizations {
+  color: purple;
+}
