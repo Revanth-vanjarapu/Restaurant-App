@@ -30,17 +30,7 @@ A responsive React restaurant app featuring dynamic menu categories, cart functi
 - Implement maintainable and reusable coding standards.
 - The tabs must not be hardcoded, their length should change as per API.
 - Host the site in Heroku / Netlify/ any hosting.
-- Submit the git URL & site URL in the Submission form.
 
-#### Submission Form:
 
-<center>Click the below button and submit your git URL and site URL</center>
-<br>
-<a target=_blank_ href="https://forms.gle/NNpW1HBk7aDDaKuw6">
-  <center><button style="color: #fff; border: none; cursor: pointer; width: 218px; height: 34px; background-color: rgb(22, 101, 216); border-radius: 5.4px; box-shadow: rgb(0 0 0 / 36%) 0px 2px 4px 0px;font-family: Inter;font-size: 14px;color: rgb(255, 255, 255);font-weight: 500;letter-spacing: 0.5px;text-transform: uppercase;">
-    SUBMIT
-  </button>
-  </center>
-</a>
 
 
