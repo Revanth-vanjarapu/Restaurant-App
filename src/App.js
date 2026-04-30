@@ -1,3 +1,4 @@
+import React from 'react';
 import Restaurant from './components/Restaurant'
 import './App.css'
 
